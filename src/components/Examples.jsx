@@ -6,7 +6,7 @@ import Tabs from "./Tabs";
 
 
 export default function Examples() {
-    const [selectedTopic, setSelectedTopic] = useState('');
+    const [selectedTopic, setSelectedTopic] = useState();
 
 function handleSelect(selectedButton) {
   // selectedButton => components, props, jsx, state

@@ -1,4 +1,4 @@
-// import { Fragment } from "react";
+//import { Fragment } from "react";
 import Header from "./components/header";
 import CoreConcepts from './components/CoreConsepts';
 import Examples from './components/Examples.jsx';
@@ -6,8 +6,9 @@ import Examples from './components/Examples.jsx';
 function App() {
  
   return (
+    
     // Fragment
-    <>  
+    <>  {/* return sadece tek satır çevirir. bu yüzden bir div ya da section içerisinde kodu çalıştırmak zorundasın. */}
       <Header />
 
       <main>

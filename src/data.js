@@ -10,7 +10,7 @@ export const CORE_CONCEPTS = [
     description:
       'The core UI building block - compose the user interface by combining multiple components.',
   },
-  {
+  { 
     image: jsxImg,
     title: 'JSX',
     description:
@@ -27,6 +27,7 @@ export const CORE_CONCEPTS = [
     title: 'State',
     description:
       'React-managed data which, when changed, causes the component to re-render & the UI to update.',
+      mode: 'dark'
   },
 ];
 
